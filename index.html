@@ -10,72 +10,92 @@
 
 <body class="p-4">
 
-    <div class="max-w-150 ">
-        <div class="flex justify-between">
-            <!-- left-side  -->
-            <div class="flex flex-col gap-2.5">
-                <h2 class="text-[18px] font-bold">Jhon Smith | <span class="font-semibold">Managing Director</span></h2>
-                <div>
-                    <!-- contact  -->
-                    <div class="flex items-center gap-7.5">
-                        <!-- left-side  -->
-                        <div class="text-[17px] font-medium flex items-center gap-2.5">
-                            <span class="font-bold">t</span>
-                            <span>+44 207 706 1111</span>
-                        </div>
-                        <!-- right-side  -->
-                        <div class="text-[17px] font-medium flex items-center gap-2.5">
-                            <span class="font-bold">m</span>
-                            <span>+44 207 706 1111</span>
-                        </div>
-                    </div>
-                    <!-- email  -->
-                    <p class="text-[17px] font-medium flex items-center gap-2.5">
-                        <span class="font-bold">e</span>
-                        <span>jhon @keithprowse.com</span>
-                    </p>
-                </div>
-            </div>
-            <!-- logo-side  -->
-            <div class="flex items-end">
-                <img src="//www.maddenmining.com.au/cdn/shop/files/madden-mining-logo.png?v=1753191244&amp;width=600"
-                    alt="Madden Mining Pty Ltd"
-                    srcset="//www.maddenmining.com.au/cdn/shop/files/madden-mining-logo.png?v=1753191244&amp;width=180 180w, //www.maddenmining.com.au/cdn/shop/files/madden-mining-logo.png?v=1753191244&amp;width=270 270w, //www.maddenmining.com.au/cdn/shop/files/madden-mining-logo.png?v=1753191244&amp;width=360 360w"
-                    width="180" height="48.23889739663094" loading="eager" class="header__heading-logo motion-reduce"
-                    sizes="(max-width: 360px) 50vw, 180px">
-            </div>
-        </div>
-        <!-- bottom  -->
-        <div class="bg-[#F3C145] relative -z-10 flex items-center justify-between w-full  mt-6 px-2 overflow-hidden">
-            <!-- left-side  -->
-            <a href="#" class="text-black text-[17px] font-medium">
-                www.@keithprowse.co.uk
-            </a>
-            <!-- bg-black-color  -->
-            <div class="absolute -z-5 right-30 rotate-50 bg-blue-700 h-110 w-45"></div>
-            <!-- right-side -->
-            <div class="flex items-center mr-25">
-                <!-- linkedin icon  -->
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="3rem" height="3rem"
-                        viewBox="0 0 50 50">
-                        <path
-                            d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
-                        </path>
-                    </svg>
-                </a>
-                <!-- facebook icon  -->
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="3rem" height="3rem"
-                        viewBox="0 0 50 50" style="fill:#1A1A1A;">
-                        <path
-                            d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M37,19h-2c-2.14,0-3,0.5-3,2 v3h5l-1,5h-4v15h-5V29h-4v-5h4v-3c0-4,2-7,6-7c2.9,0,4,1,4,1V19z">
-                        </path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
+    <!-- table  -->
+    <table style="max-width: 600px;" cellpadding="0" cellspacing="0">
+        <!-- Name and Title -->
+        <tr>
+            <td colspan="2" style="padding-bottom: 10px;">
+                <h2 style="font-size: 18px; font-weight: 700; margin: 0;">
+                    Jhon Smith | <span style="font-weight: 600;">Managing Director</span>
+                </h2>
+            </td>
+        </tr>
+
+        <!-- Contact Info and Logo Row -->
+        <tr>
+            <!-- Left Side -->
+            <td style="padding-top: 12px;">
+                <table cellpadding="0" cellspacing="0" style="font-size: 15px; font-weight: 500;">
+                    <tr>
+                        <!-- t and m side by side -->
+                        <td style="padding-right: 30px;">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr style="font-size: 17px;">
+                                    <td style="font-weight: 700; padding-right: 10px;">t</td>
+                                    <td>+44 207 706 1111</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr style="font-size: 17px;">
+                                    <td style="font-weight: 700; padding-right: 10px;">m</td>
+                                    <td>+44 207 706 1111</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Email -->
+                    <tr>
+                        <td colspan="2">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr style="font-size: 17px;">
+                                    <td style="font-weight: 800; padding-right: 10px;">e</td>
+                                    <td>jhon@keithprowse.com</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- Logo -->
+            <td style="text-align: right; vertical-align: bottom; padding-left: 90px;">
+                <img src="https://www.maddenmining.com.au/cdn/shop/files/madden-mining-logo.png?v=1753191244&amp;width=180"
+                    alt="Madden Mining Pty Ltd" width="180" style="display: block; max-width: 100%; height: auto;">
+            </td>
+        </tr>
+
+        <!-- Bottom bar -->
+        <tr>
+            <td colspan="2" style="padding-top: 20px;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #F3C145;">
+                    <tr>
+                        <td style="font-size: 15px; font-weight: 500; color: black;">
+                            <a href="#"
+                                style="font-size: 17px; color: black; text-decoration: none;padding-left: 10px;">www.keithprowse.co.uk</a>
+                        </td>
+                        <!-- LinkedIn icon -->
+                        <td style="width: 47px;height: 50px;">
+                            <a href="#">
+                                <img style="width: 40px; height: 40px;" src="imgs/linkedin-logo.png" alt="">
+                            </a>
+                        </td>
+                        <!-- Facebook icon -->
+                        <td style="width: 120px;height: 50px; ">
+                            <a href="#">
+                                <img style="width: 40px; height: 40px;" src="imgs/facebook-logo (1).png" alt="">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+
 
 </body>
 
